@@ -1,0 +1,14 @@
+#!/bin/bash
+# new line 
+echo  -e "test statement \n to separate sentences"
+echo $'1st line \n 2nd line'
+echo -e "1\n2\n3\n"
+
+
+# other options
+echo -e :"making sound: \a"  # sound alert is coming but not enable the sound settings
+echo -e :"back\bspace"    # it will delete the one char it work as backspace
+echo -e :"print \t in \t horizontal \t tab :"   # it will work as a tab it print in tab spaces
+echo -e :"print \v in \v vertical  \v tab :"   # it will work as a tab it print in tab spaces
+echo -e :"this quotesthis is new quotes :\\this is between double quotes "
+echo -e :"this quotesthis is new quotes :\' this is between double quotes "
